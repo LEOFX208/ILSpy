@@ -9,7 +9,7 @@ namespace ICSharpCode.Decompiler.Tests.TestCases.ILPretty
 			int[] array = new int[(bitArray.Count >> 5) + 1];
 			bitArray.CopyTo(array, 0);
 			int num = 0;
-			array[^1] &= ~(-1 << bitArray.Count % 32);
+			array[array.Length - 1] &= ~(-1 << bitArray.Count % 32);
 			for (int i = 0; i < array.Length; i++)
 			{
 				int num2 = array[i];
