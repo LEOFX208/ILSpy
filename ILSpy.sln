@@ -22,7 +22,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.Decompiler.Tests", "ICSharpCode.Decompiler.Tests\ICSharpCode.Decompiler.Tests.csproj", "{FEC0DA52-C4A6-4710-BE36-B484A20C5E22}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4FBB470F-69EB-4C8B-8961-8B4DF4EBB999} = {4FBB470F-69EB-4C8B-8961-8B4DF4EBB999}
-		{E3BC23F8-282A-414C-AF60-E791E0A42F92} = {E3BC23F8-282A-414C-AF60-E791E0A42F92}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{F32EBCC8-0E53-4421-867E-05B3D6E10C70}"
@@ -63,8 +62,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILSpy.Installer", "ILSpy.In
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.Decompiler.TestRunner", "ICSharpCode.Decompiler.TestRunner\ICSharpCode.Decompiler.TestRunner.csproj", "{4FBB470F-69EB-4C8B-8961-8B4DF4EBB999}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.Decompiler.TestRunner32", "ICSharpCode.Decompiler.TestRunner\ICSharpCode.Decompiler.TestRunner32.csproj", "{E3BC23F8-282A-414C-AF60-E791E0A42F92}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -141,10 +138,6 @@ Global
 		{4FBB470F-69EB-4C8B-8961-8B4DF4EBB999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FBB470F-69EB-4C8B-8961-8B4DF4EBB999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBB470F-69EB-4C8B-8961-8B4DF4EBB999}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3BC23F8-282A-414C-AF60-E791E0A42F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3BC23F8-282A-414C-AF60-E791E0A42F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3BC23F8-282A-414C-AF60-E791E0A42F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3BC23F8-282A-414C-AF60-E791E0A42F92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
