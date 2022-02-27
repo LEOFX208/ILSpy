@@ -62,7 +62,7 @@ jobs:
       uses: dorny/test-reporter@v1
       if: success() || failure()
       with:
-        name: Unit Tests ${{ matrix.configuration }}
+        name: Unit Test Results (${{ matrix.configuration }})
         path: '**/*.trx'
         reporter: dotnet-trx
 
